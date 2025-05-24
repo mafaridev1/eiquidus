@@ -1,0 +1,6 @@
+*/1 * * * * cd /usr/src/app && node scripts/sync.js update > /dev/null 2>&1
+*/5 * * * * cd /usr/src/app && node scripts/sync.js markets > /dev/null 2>&1
+*/5 * * * * cd /usr/src/app && node scripts/sync.js peers > /dev/null 2>&1
+*/5 * * * * cd /usr/src/app && node scripts/sync.js masternodes > /dev/null 2>&1
+
+#Done 
